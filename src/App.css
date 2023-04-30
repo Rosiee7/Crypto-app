@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+.title {
+    background-color: #363636;
+    padding: 20px 10px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: .01em;
+    color: #f0ece2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.searchForm {
+    display: inline-block;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.searchInput {
+    background: #363636;
+    height: 20px;
+    border-radius: 40px;
+    padding: 10px;
+    text-align: left;
+    color: #f0ece2;
+    border:none;
+}
+
+
+#coinsTable {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+.coinImage {
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+#coinsTable td, #coinsTable th {
+    border-block-start: 1px solid #ddd;
+    padding: 8px;
+    font-size: 0.75rem;
+    overflow: hidden;
+}
+
+    #coinsTable tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    #coinsTable tr:hover {
+        background-color: #ddd;
+    }
+
+#coinsTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4f5351;
+    color: #f0ece2;
+    font-size:0.84rem;
+}
+
+.coinName {
+    color: #333;
+    font-size: 0.75rem;
+}
+.coinSymbol {
+    color: #6B7280;
+    font-size:0.7rem;
+}
+
+.percentRed {
+    color: #e15241;
+}
+
+.percentGreen {
+    color: #4eaf0a;
+}
+
+
+    @media screen and (max-width: 700px) {
+        #coinsTable th {
+        font-size: 0.7rem;
+    }
+
+    #coinsTable td {
+        border-block-start: 1px solid #ddd;
+        padding: 8px;
+        font-size: 0.63rem;
+        overflow: hidden;
+    }
+
+}
+
+    @media screen and (max-width: 600px) {
+
+        #coinsTable {
+            width:500px;
+        }
+            #coinsTable th {
+            font-size: 0.64rem;
+        }
+
+        #coinsTable td {
+            border-block-start: 1px solid #ddd;
+            padding: 8px;
+            font-size: 0.51rem;
+            overflow: hidden;
+        }
+    }
+
+    .priceUp{
+        padding:0.1px;
+        margin-left:7px;
+    }
+
+
+    .priceDown {
+    padding: 0.1px;
+    margin-left: 3px;
+    }
