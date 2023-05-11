@@ -1,4 +1,4 @@
-![image](https://github.com/Rosiee7/Crypto-app/assets/88431787/e1f1ab82-a569-4233-bc8a-87a2b6f73ed6)
+![Uploading image.png…]()
 
 
 # Getting Started with Create React App
