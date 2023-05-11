@@ -1,5 +1,4 @@
-![Uploading image.png…]()
-
+https://github.com/Rosiee7/Crypto-app/blob/main/Screenshot.png?raw=true
 
 # Getting Started with Create React App
 
